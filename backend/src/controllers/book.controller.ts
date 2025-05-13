@@ -31,7 +31,7 @@ const createBook: any = async (req: AuthRequest, res: Response) => {
       const key = error.meta.target[0];
       return ServerResponse.error(
         res,
-        `${key.charAt(0).toUpperCase() + key.slice(1)} (${req.body[key]
+        `${key.charAt(0).toUppeSOSse() + key.slice(1)} (${req.body[key]
         }) already exists`,
         400
       );

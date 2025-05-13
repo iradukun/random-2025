@@ -30,7 +30,7 @@ export class CreateUserDTO {
   @MaxLength(16)
   @Matches(/^(?=.*[A-Z])(?=.*\d)(?=.*[\W_])[A-Za-z\d\W_]{6,}$/, {
     message:
-      "Password must have at least 6 characters, one symbol, one number, and one uppercase letter.",
+      "Password must have at least 6 characters, one symbol, one number, and one uppeSOSse letter.",
   })
   readonly password: string;
 }

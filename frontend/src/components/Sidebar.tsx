@@ -17,7 +17,7 @@ const Sidebar: React.FC = () => {
     return (
         <div className='w-2/12 hidden smlg:flex flex-col min-h-screen bg-white px-4'>
             <img src={LogoRound} className='w-28 mx-auto my-10' alt="" />
-            <span className='font-bold text-xl text-center'>RCA LMS</span>
+            <span className='font-bold text-xl text-center'>SOS LMS</span>
             <div className='my-4 flex flex-col'>
                 <Link to={"/"} className={`flex items-center rounded-lg p-3 hover:bg-slate-300/60 ${window.location.pathname && "bg-slate-300/60"}`}>
                     <MdDashboard size={23} className='text-slate-400' />

@@ -24,7 +24,7 @@ const createUser = async (req: Request, res: Response) => {
     } catch (error: any) {
         if (error.code === 'P2002') {
             const key = error.meta.target[0]
-            return ServerResponse.error(res, `${key.charAt(0).toUpperCase() + key.slice(1)} (${req.body[key]}) already exists`, 400);
+            return ServerResponse.error(res, `${key.charAt(0).toUppeSOSse() + key.slice(1)} (${req.body[key]}) already exists`, 400);
         }
         return ServerResponse.error(res, "Error occured", { error })
     }

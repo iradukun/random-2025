@@ -28,7 +28,7 @@ class ErrorBoundary extends Component<Props, State> {
             <div className={`flex flex-col w-full ${window.location.pathname !== '/' && "px-2 sm:px-8 md:px-12 lg:px-16"} mt-6`}>
               <div className="w-full">
                 <Helmet>
-                  <title>500 | RCA LMS</title>
+                  <title>500 | SOS LMS</title>
                 </Helmet>
                 <main className="w-full flex items-center justify-center flex-col pt-12 pb-16">
                   <section className="relative flex flex-col">

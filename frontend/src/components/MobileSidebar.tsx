@@ -18,7 +18,7 @@ const MobileSidebar: React.FC = () => {
         <div className='fixed backdrop-blur-sm w-screen h-screen flex items-center flex-col z-10 bg-black/40'>
             <div className='w-full h-full absolute z-20' onClick={() => setShowSidebar(false)}></div>
             <div className='bg-white p-8 w-11/12 mmsm:w-10/12 sm:w-7/12 flex flex-col rounded-b-2xl'>
-                <span className='font-bold text-xl text-center'>RCA LMS</span>
+                <span className='font-bold text-xl text-center'>SOS LMS</span>
                 <div className='my-4 flex flex-col'>
                     <Link to={"/"} className={`flex items-center rounded-lg p-3 hover:bg-slate-300/60 ${window.location.pathname && "bg-slate-300/60"}`}>
                         <MdDashboard size={23} className='text-slate-400' />

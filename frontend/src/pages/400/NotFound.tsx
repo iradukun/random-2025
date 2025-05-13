@@ -7,7 +7,7 @@ const NotFound: React.FC<{}> = () => {
     return (
         <div className="w-full flex items-center justify-center min-h-screen">
             <Helmet>
-                <title>404 | RCA LMS</title>
+                <title>404 | SOS LMS</title>
             </Helmet>
             <main className="w-full flex items-center justify-center flex-col pt-12 pb-16">
                 <section className="relative flex flex-col">

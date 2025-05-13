@@ -3,8 +3,8 @@ import swaggerAutogen from 'swagger-autogen';
 const doc = {
     info: {
         version: '1.0.0',
-        title: 'RCA LMS API',
-        description: 'RCA Library Management System APIs Documentation'
+        title: 'SOS LMS API',
+        description: 'SOS Library Management System APIs Documentation'
     },
     host: 'localhost:5055',
     basePath: '/api/v1',
